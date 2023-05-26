@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.text{
+    text-align: center;
+    font-size: 3.2em;
+    font-weight:bold ;
+    
+}
+nav ul li {
+    list-style: none;
+    padding: 24px 40px;
+}
+nav ul li a{
+    color:white;
+    text-decoration:none
+}
+nav ul li a:hover{
+    color:blue;
+    font-style: bold;
+     
+}
+nav ul{
+    display:flex;
+    
+}
+.search{
+    display:flex;
+    height: 30px;
+    width: 95%;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.search input{
+    width:55%;
+    border-radius: 10px 0 0 ;
+    border-style:solid ;
+    border-width:1px ;
+    border-color: black;
+    margin-right: 16px;
+}
+footer{
+    height: 8vh;
+    background-color:aqua;
+    color:black ;
+    font-size: 10px;
+}
+
+header{
+    height: 9vh;
+    background-color:aqua;
+    margin-bottom: 0%;
+
+
+}
+
+
+
+.btn{
+    width: 100px;
+    
+    
+}
+marquee{
+    color: black;
+    font-weight:bolder ;
+}
+
+.container{
+margin-top: 40px;
+display: flex;
+margin-left: 20px;
+
+
+
+
+}
+.pra{
+    font-size: 4.2em;
+    padding-left: 60px;
+    padding-top:40px ;
+}
+.prav{
+    padding-top: 120px;
+    padding-right: 10px;
+    font-weight:bolder ;
+    font-size:1.2em ;
+}
+.cards{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 30px;
+    overflow: scroll;
+}
+
+
+.gifts{
+    display: flex;
+    overflow: scroll;
+    margin-left:45px ;
+}
+.watch{
+    display:flex;
+    overflow:scroll;
+    margin-top: 10px;
+    margin-left: 45px;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+h3{
+    margin-left: 40px;
+}
+.watchitem{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.giftitem{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.carditems{
+    margin-left:20px ;
+}
+ h2{
+    color: black;
+    text-align: center;
+ }
+ .nav{
+    color:red;
+    margin-left:130px ;
+    position: relative;
+    bottom: 30px;
+ }
+ marquee li {
+    display:inline;
+ }
+ .con{
+    margin-left:20px ;
+    margin-top:30px ;
+    font-weight:900 ;
+    color:red ;
+ }
+ .fa-solid fa-phone-volume fa-xs{
+    padding-top:10px ;
+    margin-top:20px ;
+    margin-left:100px ;
+ }
